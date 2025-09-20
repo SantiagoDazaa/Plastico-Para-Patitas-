@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Productos</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #f4f8fb; margin: 0; padding: 0; text-align: center; }
+        header { background: #087a1b; color: #fff; padding: 30px 10px 20px 10px; }
+        .logo { width: 150px; margin: 20px auto 10px auto; display: block; }
+        nav { margin: 20px 0; }
+        nav a { color: #029716; background: #fff; text-decoration: none; padding: 10px 18px; margin: 0 8px; border-radius: 5px; font-weight: bold; transition: background 0.2s, color 0.2s; }
+        nav a:hover { background: #029716; color: #fff; }
+        .container { background: #fff; color: #087a1b; margin: 30px auto; padding: 20px; border-radius: 10px; width: 90%; max-width: 800px; text-align: left; }
+        h2, h3 { color: #029716; text-align: center; }
+
+        /* Catálogo tipo Mercado Libre */
+        .catalogo {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .producto {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            width: 220px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            text-align: center;
+            padding: 16px;
+            transition: box-shadow 0.2s;
+        }
+        .producto:hover {
+            box-shadow: 0 4px 16px rgba(2,151,22,0.15);
+        }
+        .producto img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            border-radius: 6px;
+            margin-bottom: 10px;
+        }
+        .producto h3 {
+            font-size: 1.1em;
+            margin: 10px 0 6px 0;
+        }
+        .producto .precio {
+            color: #029716;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .producto button {
+            background: #029716;
+            color: #fff;
+            border: none;
+            padding: 8px 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .producto button:hover {
+            background: #087a1b;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Productos - Plastico Para Patitas</h1>
+        <img src="Logo.jpeg" alt="Logo de Plastico Para Patitas" class="logo">
+    </header>
+    <nav>
+        <a href="PlasticoParaPatitasmafemua.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html">Productos</a>
+        <a href="proceso-de-reciclaje.html">Proceso de Reciclaje</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="container">
+        <h2>Nuestros Productos</h2>
+        <div class="catalogo">
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x140?text=Producto+1" alt="Producto 1">
+                <h3>Comedero Reciclado</h3>
+                <div class="precio">$0</div>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x140?text=Producto+2" alt="Producto 2">
+                <h3>Juguete Ecológico</h3>
+                <div class="precio">$0</div>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x140?text=Producto+3" alt="Producto 3">
+                <h3>Cama para Mascotas</h3>
+                <div class="precio">$0</div>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="https://via.placeholder.com/200x140?text=Producto+4" alt="Producto 4">
+                <h3>Plato Antideslizante</h3>
+                <div class="precio">$0</div>
+                <button>Comprar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html></div>
