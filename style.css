@@ -6,6 +6,23 @@ body {
     text-align: center;
 }
 
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f8fb;
+  background-image: repeating-radial-gradient(
+    circle at 0 0,
+    #eafbf0,
+    #eafbf0 20px,
+    transparent 21px,
+    transparent 40px
+  );
+  background-size: 80px 80px;
+  text-align: center;
+}
+
+
 /* HEADER con degradado animado */
 header {
     background: linear-gradient(270deg, #087a1b, #029716, #0cbf2d);
@@ -505,4 +522,5 @@ footer {
 p {
     line-height: 1.6;
     margin-bottom: 20px;
+
 }
